@@ -35,3 +35,15 @@
 .nav-log{
     padding: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+    .back-color {
+        height: 60px;
+    }
+    .main-logo {
+        margin-left: 0px;
+    }
+    .nav-content {
+        margin-right: 10px;
+    }
+  }
