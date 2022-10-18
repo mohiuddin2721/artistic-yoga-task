@@ -30,7 +30,7 @@
 
 .nav-tag{
     padding: 16px;
-    border-bottom: solid 1px #000000;
+    border-bottom: solid .5px #000000;
 }
 .nav-log{
     padding: 16px;
@@ -45,5 +45,11 @@
     }
     .nav-content {
         margin-right: 10px;
+    }
+    .nav-tag {
+        padding: 6px;
+    }
+    .nav-log{
+        padding: 8px;
     }
   }

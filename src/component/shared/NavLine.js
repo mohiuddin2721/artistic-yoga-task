@@ -21,7 +21,7 @@ const NavLine = () => {
                             <img src={elips2} alt='' />
                         </div>
                     </label>
-                    <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
+                    <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-[#FCF7F3] rounded-box w-52">
                         <Link to={'/Dashboard'} className='nav-tag'><a>Dashboard</a></Link>
                         <Link to={'/Bookmarks'} className='nav-tag'><a>Bookmarks</a></Link>
                         <Link to={'/My-Account'} className='nav-tag'><a>My Account</a></Link>
