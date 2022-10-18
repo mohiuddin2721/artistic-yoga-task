@@ -1,12 +1,16 @@
 import React from 'react';
-import bgImage from '../../assets/Ellipse-4.png';
 import './FlatAbs.css';
+import bgImage from '../../assets/floral-1.png';
 import videoImage from '../../assets/video-1.png'
 import polygon from '../../assets/poligon-3.png'
 
 const FlatAbs = () => {
     return (
-        <div style={{ backgroundImag: `${bgImage}`, backgroundColor: '#fdf8f4', height: '705px' }}>
+        <div style={{ position: 'relative', backgroundClip: '#fdf8f4'}}>
+            <img 
+            src={bgImage} 
+            style={{position: 'absolute', transform: 'rotate(180deg)', right: 0, height: '600px'}}
+            alt="" />
             <div style={{ width: '1128px' }} className='mx-auto'>
                 <div style={{ color: '#000000' }}>
                     <h1 style={{ fontFamily: 'Avenir LT Std' }} className='pt-[67px] text-[36px] mb-0 pb-0'>Yoga for Flat Abs</h1>
@@ -17,7 +21,7 @@ const FlatAbs = () => {
                         <img src={videoImage} className='flatAbs-video' alt="" />
                         <img src={polygon} className='flatAbs-video-btn' alt="" />
                     </div>
-                    <div>
+                    <div className='pl-12'>
                         <h1 style={{ fontSize: '22.78px' }}>
                             <span style={{ borderBottom: '3px solid #FE5266' }} className='text-[#FE5266]'>Details</span>
                             <span className='text-[#4D4D4D] ml-[65px]'>Techniques</span>
@@ -29,8 +33,8 @@ const FlatAbs = () => {
                         </p>
                         <p style={{marginTop: '80px', fontWeight: '750', fontSize: '18px', color: '#FE5266'}}>AED 99/-</p>
                         <div>
-                            <button style={{marginTop: '43px', marginRight: '18px', color: '#FFFFFF', padding: '12px 30px', background: 'linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%)', borderRadius: '50px'}}>Join now </button>
-                            <button style={{marginTop: '43px', marginRight: '18px', color: '#FE5266', padding: '12px 30px', border: '1px solid #FE5266', borderRadius: '50px'}}>View Schedule</button>
+                            <button style={{marginTop: '43px', marginBottom: '40px', marginRight: '18px', color: '#FFFFFF', padding: '12px 30px', background: 'linear-gradient(90.19deg, #F24397 0.17%, #F64C3B 105.5%)', borderRadius: '50px'}}>Join now </button>
+                            <button style={{marginTop: '43px', marginBottom: '40px', marginRight: '18px', color: '#FE5266', padding: '12px 30px', border: '1px solid #FE5266', borderRadius: '50px'}}>View Schedule</button>
                         </div>
                     </div>
                 </div>
