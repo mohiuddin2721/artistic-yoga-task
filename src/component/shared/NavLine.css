@@ -1,0 +1,37 @@
+.back-color {
+    background-color: #fff3e9;
+    height: 80px;
+    color: #000000;
+}
+
+.main-logo {
+    margin-left: 80px;
+}
+
+.nav-content {
+    margin-right: 129px;
+}
+
+.nav-about {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 156.5%;
+    margin-right: 64px;
+}
+
+.nav-programs {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 156.5%;
+    margin-right: 112px;
+}
+
+.nav-tag{
+    padding: 16px;
+    border-bottom: solid 1px #000000;
+}
+.nav-log{
+    padding: 16px;
+}
