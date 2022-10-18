@@ -6,7 +6,7 @@ import polygon from '../../assets/poligon-3.png';
 
 const FlatAbs = () => {
     return (
-        <div style={{ position: 'relative', backgroundClip: '#fdf8f4'}}>
+        <div style={{ position: 'relative', backgroundColor: '#fdf8f4'}}>
             <img 
             src={bgImage} 
             style={{position: 'absolute', transform: 'rotate(180deg)', right: 0, height: '600px'}}
