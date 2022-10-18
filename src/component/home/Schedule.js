@@ -12,13 +12,15 @@ import star4 from '../../assets/Ellipse 23.png';
 import star5 from '../../assets/Ellipse 24.png';
 import star6 from '../../assets/Ellipse 25.png';
 import star7 from '../../assets/Ellipse 26.png';
+import videoImage from '../../assets/video-1.png';
+import rectangle from '../../assets/Rectangle 40.png';
 
 const Schedule = () => {
     return (
         <div style={{ backgroundColor: '#fdf8f4', height: '774px' }}>
             <div style={{ width: '1128px' }} className='mx-auto'>
                 <h1 style={{ paddingTop: '56px', fontSize: '30px', color: '#000000' }}>Schedule</h1>
-                <div className='grid grid-cols-2'>
+                <div className='grid grid-cols-2 gap-12'>
                     <div style={{ position: 'relative' }}>
                         <img
                             src={circle}
@@ -39,8 +41,8 @@ const Schedule = () => {
                         <img
                             src={mainStar}
                             style={{ position: 'absolute', top: '210px', left: '-25px', width: '61px' }}
-                            alt="" /> 
-                        <span style={{ position: 'absolute', color: '#FFFFFF',fontWeight: 750, top: '230px', left: '0px', width: '61px' }}>1</span>
+                            alt="" />
+                        <span style={{ position: 'absolute', color: '#FFFFFF', fontWeight: 750, top: '230px', left: '0px', width: '61px' }}>1</span>
                         <img
                             src={star2}
                             style={{ position: 'absolute', top: '340px', left: '20px', width: '16px' }}
@@ -68,13 +70,27 @@ const Schedule = () => {
                     </div>
                     <div>
                         <div>
-                            <h1 style={{display: 'inline', fontSize: '32px'}}>Day 1- Class</h1>
-                            <button style={{display: 'inline', marginRight: '20px'}}>
+                            <h1 style={{ display: 'inline', fontSize: '32px', color: '#000000' }}>Day 1- Class</h1>
+                            <button style={{ display: 'inline', marginRight: '20px', width: '35px', marginTop: '20px', marginLeft: '210px' }}>
                                 <img src={btnLeft} alt="" />
                             </button>
-                            <button style={{display: 'inline'}}>
+                            <button style={{ display: 'inline', width: '35px', marginTop: '20px' }}>
                                 <img src={btnRight} alt="" />
                             </button>
+                        </div>
+                        <div>
+                            <div style={{ marginTop: '38px', position: 'relative' }}>
+                                <img src={videoImage} className='w-[475px]' alt="" />
+                                <img
+                                    src={rectangle}
+                                    style={{ position: 'absolute', left: '333px', top: '200px' }}
+                                    className='w-[145px]'
+                                    alt="" />
+                            </div>
+                            <div style={{marginTop: '42px'}}>
+                                <p style={{color:'#000000', fontSize: '18px', lineHeight: '30px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p style={{ color: '#f3457c', marginTop: '12px', fontSize: '25px' }}>Join Today.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

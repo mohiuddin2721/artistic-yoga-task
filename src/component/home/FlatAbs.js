@@ -1,8 +1,8 @@
 import React from 'react';
 import './FlatAbs.css';
 import bgImage from '../../assets/floral-1.png';
-import videoImage from '../../assets/video-1.png'
-import polygon from '../../assets/poligon-3.png'
+import videoImage from '../../assets/video-1.png';
+import polygon from '../../assets/poligon-3.png';
 
 const FlatAbs = () => {
     return (
