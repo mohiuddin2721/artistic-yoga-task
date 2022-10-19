@@ -39,9 +39,8 @@ const Teachers = () => {
                             </div>
                             <div className='col-span-2' style={{ position: 'relative' }}>
                                 <p style={{ position: 'absolute', left: '260px', top: '81px', color: '#4D4D4D' }}>
-                                    Ashrei Mitra started his journey in yoga at the age of 16.
-                                    He was chosen by his master Dr. Bharat Thakur from a
-                                    meditation workshop and has worked with him closely for many years to become one
+                                    Ashrei Mitra started his journey in yoga at the age of 16. He was chosen by his master Dr. 
+                                    Bharat Thakur from a and has worked with him closely for many years to become one
                                     of the most senior teachers at Bharat Thakur Artistic Yoga. Combining his
                                     love of fitness, breathwork, functional training, and his deep knowledge of the
                                     human anatomy and yogic knowhow, he is committed to maximizing on the human potential by strengthening and

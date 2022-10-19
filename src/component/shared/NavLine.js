@@ -8,9 +8,9 @@ const NavLine = () => {
     return (
         <div className="navbar back-color">
             <div className="flex-1">
-                <a className="btn btn-ghost normal-case main-logo">
+                <Link to={'/home'} className="btn btn-ghost normal-case main-logo">
                     <img src={ayLogo} alt="" />
-                </a>
+                </Link>
             </div>
             <div className="flex-none nav-content">
                 <Link to={'/About-Us'} className='nav-about hidden lg:flex'><a>About Us</a></Link>
@@ -24,7 +24,7 @@ const NavLine = () => {
                     <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-[#FCF7F3] rounded-box w-52">
                         <Link to={'/Dashboard'} className='nav-tag'><a>Dashboard</a></Link>
                         <Link to={'/Bookmarks'} className='nav-tag'><a>Bookmarks</a></Link>
-                        <Link to={'/My-Account'} className='nav-tag'><a>My Account</a></Link>
+                        <Link to={'/account'} className='nav-tag'><a>My Account</a></Link>
                         <Link to={'/About-Us'} className='nav-tag lg:hidden sm:flex'><a>About Us</a></Link>
                         <Link to={'/Our-Programs'} className='nav-tag lg:hidden sm:flex'><a>Our Programs</a></Link>
                         <Link to={'/LogIn'} className='nav-log'><a>LogIn</a></Link>
